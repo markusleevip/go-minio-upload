@@ -11,6 +11,11 @@ minio:
   secretAccessKey: "X8QgIeo6yyV9aoVojaVR2ZFCkAnWfRiJ8oPTy2ej"
   bucketName: "my-bucket"
 ```
+
+## Getting Started
+Video usage introduction:
+https://www.bilibili.com/video/BV1h64y1p7gt/
+
 ### Installing
 Follow these steps to get your development environment running:
 1. Clone the repository to your local machine:
