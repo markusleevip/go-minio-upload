@@ -122,6 +122,10 @@ func main() {
 		filename := filepath.Base(filePath)
 		if !info.IsDir() {
 			log.Println(filename)
+			extName := getExtension(filename)
+			if ".zip" == extName {
+				continue
+			}
 			// 生成 SHA256 编码
 			sha, err := GenerateSHA256(filePath)
 			if err != nil {
